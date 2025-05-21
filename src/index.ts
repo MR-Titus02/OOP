@@ -1,4 +1,6 @@
 import { circle } from "./circle";
+import { square } from "./square";
+import { student } from "./student";
 console.log("Hello World");
 const c = new circle();
 c.setRadius(7);
@@ -11,3 +13,26 @@ const d = new circle();
 d.setRadius(14);
 console.log(`area of c is ${d.getArea()}`);
 console.log(`perimeter of c is ${d.getPerimeter()}`);
+
+
+const s1 = new square();
+s1.setSide(5);
+console.log(`area of s1 is ${s1.getArea()}`);
+console.log(`perimeter of s1 is ${s1.getPerimeter()}`);
+
+const student1 = new student();
+student1.setName("Titus");
+student1.setId(5);
+student1.setNic(200403310818);
+student1.setHtml_marks(50);
+student1.setCss_marks(60);
+student1.setJs_marks(70);
+student1.setGit_marks(80);
+console.log(`Name: ${student1.name}`);
+console.log(`Id: ${student1.id}`);
+console.log(`Nic: ${student1.Nic}`);
+console.log(`Html_marks: ${student1.Html_marks}`);
+console.log(`Css_marks: ${student1.Css_marks}`);
+console.log(`Js_marks: ${student1.Js_marks}`);
+console.log(`Git_marks: ${student1.git_marks}`);
+console.log(`Average marks: ${student1.setAvg_marks()}`);
