@@ -1,0 +1,10 @@
+class student
+name 
+nic/ reg no
+Html
+css
+git
+
+
+set name, reg no, html,css, git
+se avg
