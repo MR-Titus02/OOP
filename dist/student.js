@@ -11,25 +11,25 @@ class student {
         this.Js_marks = 0;
         this.git_marks = 0;
     }
-    setName(n) {
+    getName(n) {
         this.name = n;
     }
-    setId(i) {
+    getId(i) {
         this.id = i;
     }
-    setNic(n) {
+    getNic(n) {
         this.Nic = n;
     }
-    setHtml_marks(m) {
+    getHtml_marks(m) {
         this.Html_marks = m;
     }
-    setCss_marks(m) {
+    getCss_marks(m) {
         this.Css_marks = m;
     }
-    setJs_marks(m) {
+    getJs_marks(m) {
         this.Js_marks = m;
     }
-    setGit_marks(m) {
+    getGit_marks(m) {
         this.git_marks = m;
     }
     setAvg_marks() {
